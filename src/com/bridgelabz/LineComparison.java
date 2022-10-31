@@ -44,7 +44,16 @@ public static void main(String[] args){
     else
         System.out.println("Lengths are not equal ");
 //    comparision of line
+    if(length_of_Line1 > length_of_Line2){
+        System.out.println("Length of line1 is greater then from line2");
+    }
+    else if(length_of_Line2 > length_of_Line1) {
+        System.out.println("Lengths of line1 is lesser then from line2 ");
+    }
+    else {
+        System.out.println("Length of lines are equal");
+    }
+}
 }
 
-}
 
